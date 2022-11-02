@@ -7,3 +7,5 @@ create table AddressBook(First_name varchar(100),last_name varchar(100),City var
 insert into AddressBook(First_name,last_name,City,State,Zip,Phone_number,Email) values('Ashish','Patil','Kolhapur','Maharastra','456952',8564791302,'asdf@gmail.com');
 --UC4-Ability to edit existing person contact
 update AddressBook set City='Pune' where First_name='Ashish'; 
+--UC5-Ability to delete a Persons
+delete from AddressBook where First_name='Ashish';
