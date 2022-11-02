@@ -11,3 +11,6 @@ update AddressBook set City='Pune' where First_name='Ashish';
 delete from AddressBook where First_name='Ashish';
 --UC6-Ability to retrive from city
 select * from AddressBook where City='Pune';
+--UC7-Ability to understand the size
+select count(City) from AddressBook where City='Pune';
+select count(State) from AddressBook where State='Maharastra';
